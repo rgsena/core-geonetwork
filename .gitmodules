@@ -10,3 +10,7 @@
 [submodule "docs/manuals"]
 	path = docs/manuals
 	url = https://github.com/geonetwork/doc.git
+[submodule "snig-services"]
+	path = snig-services
+	url = https://gitlab.wkt.pt/snig/geonetwork/snig-services.git
+	branch = 3.10.x

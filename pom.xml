@@ -1275,6 +1275,7 @@
     <module>harvesters</module>
     <module>healthmonitor</module>
     <module>services</module>
+    <module>snig-services</module>
     <module>wro4j</module>
     <module>inspire-atom</module>
     <module>doi</module>
