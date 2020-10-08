@@ -161,6 +161,9 @@
       <field name="cl_status_text" tagName="status_text"/>
       <field name="updateFrequency" tagName="updateFrequency"/>
       <field name="lineage" tagName="lineage"/>
+      <!-- Custom SNIG -->
+      <field name="legalConstraintsAnchor" tagName="legalConstraints"/>
+      <!-- End Custom SNIG -->      
       <field name="responsibleParty" tagName="responsibleParty"/>
       <field name="MD_LegalConstraintsOtherConstraints" tagName="legalConstraints"/>
       <field name="MD_LegalConstraintsUseLimitation" tagName="legalConstraints"/>
@@ -189,6 +192,25 @@
       <field name="featureTypes" tagName="featureTypes"/>
       <field name="versionIdentifier" tagName="versionIdentifier"/>
       <field name="_draft" tagName="draft"/>
+      <!-- Custom SNIG -->
+      <field name="cartografia" tagName="cartografia"/>
+      <field name="geographicCoverage" tagName="geographicCoverage"/>
+      <field name="geographicCoverageDesc" tagName="geographicCoverageDesc"/>
+      <field name="inspirecore" tagName="inspirecore"/>
+      <field name="denominatorRange" tagName="denominatorRange" />
+      <field name="resolutionRange" tagName="resolutionRange" />    
+      <!-- <field name="createDateYearRange" tagName="createDateYearRange"/> -->
+      <field name="dataPolicy" tagName="dataPolicy"/>
+      <field name="openServiceType" tagName="openServiceType" />
+      <field name="dataFormat" tagName="dataFormat" />
+      <field name="dataType" tagName="dataType" />
+      <field name="referenceDate" tagName="referenceDate" />
+      <field name="referenceDateRange" tagName="referenceDateRange" />
+      <field name="referenceDateOrd" tagName="referenceDateOrd" />
+      <field name="orgNameSNIG" tagName="orgNameSNIG" />
+      <field name="changeDate" tagName="changeDate" />
+      <field name="topicCatLang" tagName="topicCatLang"/>      
+      <!-- End Custom SNIG -->      
     </dumpFields>
   </search>
 
@@ -371,6 +393,10 @@
   <fuzzyMatching enabled="true">
     <Field name="any"/>
     <Field name="anylight"/>
+    <!-- SNIG -->
+    <Field name="anysnig"/>
+    <Field name="anylightsnig"/>
+    <!-- End SNIG -->    
     <Field name="title"/>
     <Field name="altTitle"/>
     <Field name="abstract"/>
