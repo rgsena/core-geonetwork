@@ -588,6 +588,11 @@
       <artifactId>schema-iso19115-3.2018</artifactId>
       <version>${gn.schemas.version}</version>
     </dependency>
+	<dependency>
+	  <groupId>${project.groupId}</groupId>
+	  <artifactId>schema-iso19139.pt.mig.2.0</artifactId>
+	  <version>${gn.schemas.version}</version>
+	</dependency>
 
     <dependency>
       <groupId>${project.groupId}</groupId>
@@ -818,6 +823,11 @@
                 </resource>
                 <resource>
                   <directory>${project.basedir}/../schemas/iso19115-3.2018/src/main/plugin</directory>
+                  <targetPath>${basedir}/src/main/webapp/WEB-INF/data/config/schema_plugins
+                  </targetPath>
+                </resource>
+                <resource>
+                  <directory>${project.basedir}/../schemas/iso19139.pt.mig.2.0/src/main/plugin</directory>
                   <targetPath>${basedir}/src/main/webapp/WEB-INF/data/config/schema_plugins
                   </targetPath>
                 </resource>
